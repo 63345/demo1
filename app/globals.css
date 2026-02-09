@@ -1,0 +1,63 @@
+:root {
+  --bili-pink: #FB7299;
+  --bili-blue: #00AEEC;
+  --bg-base: #F6F7F8;
+  --text-primary: #18191C;
+  --text-secondary: #9499A0;
+  --card-bg: #FFFFFF;
+  --header-height: 64px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-base);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Utilities */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-pink {
+  color: var(--bili-pink);
+}
+
+.text-blue {
+  color: var(--bili-blue);
+}
+
+.bg-pink {
+  background-color: var(--bili-pink);
+}
+
+.bg-blue {
+  background-color: var(--bili-blue);
+}
